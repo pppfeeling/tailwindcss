@@ -1,4 +1,4 @@
-import { KBarAnimator, KBarPortal, KBarPositioner, KBarSearch, KBarProvider, ActionImpl,Action } from "kbar";
+import { KBarAnimator, KBarPortal, KBarPositioner, KBarSearch, KBarProvider, Action } from "kbar";
 
 import RenderResults  from "./RenderResults";
 
