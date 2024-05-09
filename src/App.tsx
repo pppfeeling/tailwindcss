@@ -1,21 +1,20 @@
-import {  useKBar } from "kbar";
+import { useKBar } from "kbar";
 import ControlK from "./ControlK";
 
 export default function App() {
   return (
     <div className=" h-screen">
-      <ControlK >
-        
+      <ControlK>
         <div className="flex justify-center p-8">
-            <CommandButton />
-          </div>
-        </ControlK>
-
-        <div className="flex w-full h-10 border-blue-300">
-          <div className="bg-red-500 w-1/12">a</div>
-          <div className="bg-green-600 w-2/12">b</div>
-          <div className="bg-blue-700 w-9/12">c</div>
+          <CommandButton />
         </div>
+      </ControlK>
+
+      <div className="flex w-full h-10 border-blue-300">
+        <div className="bg-red-500 w-1/12">a</div>
+        <div className="bg-green-600 w-2/12">b</div>
+        <div className="bg-blue-700 w-9/12">c</div>
+      </div>
     </div>
   );
 }
