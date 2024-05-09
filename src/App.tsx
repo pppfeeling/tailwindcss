@@ -12,9 +12,9 @@ export default function App() {
         </ControlK>
 
         <div className="flex w-full h-10 border-blue-300">
-          <div className="bg-red-500 w-1/8"></div>
-          <div className="bg-green-600 w-2/8"></div>
-          <div className="bg-blue-700 w-/8"></div>
+          <div className="bg-red-500 w-1/12">a</div>
+          <div className="bg-green-600 w-2/12">b</div>
+          <div className="bg-blue-700 w-9/12">c</div>
         </div>
     </div>
   );
